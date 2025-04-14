@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: "marcellus", sans-serif;
+}
+
+@theme {
+  --color-primary: #E83F25;
+  --color-primary-dull: #B5311C  ;
+  --color-blue:#1e0259
+  ;
+}
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
